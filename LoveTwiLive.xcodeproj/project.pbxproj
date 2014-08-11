@@ -19,6 +19,7 @@
 		8381083A199936110036F789 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83810822199936110036F789 /* UIKit.framework */; };
 		83810842199936110036F789 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83810840199936110036F789 /* InfoPlist.strings */; };
 		83810844199936110036F789 /* LoveTwiLiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83810843199936110036F789 /* LoveTwiLiveTests.m */; };
+		8381084F199936380036F789 /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8381084E199936380036F789 /* TopViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		8381083F199936110036F789 /* LoveTwiLiveTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoveTwiLiveTests-Info.plist"; sourceTree = "<group>"; };
 		83810841199936110036F789 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83810843199936110036F789 /* LoveTwiLiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoveTwiLiveTests.m; sourceTree = "<group>"; };
+		8381084D199936380036F789 /* TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopViewController.h; sourceTree = "<group>"; };
+		8381084E199936380036F789 /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				8381082D199936110036F789 /* AppDelegate.h */,
 				8381082E199936110036F789 /* AppDelegate.m */,
+				8381084D199936380036F789 /* TopViewController.h */,
+				8381084E199936380036F789 /* TopViewController.m */,
 				83810830199936110036F789 /* Images.xcassets */,
 				83810825199936110036F789 /* Supporting Files */,
 			);
@@ -191,6 +196,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = mrt;
 				TargetAttributes = {
+					8381081A199936110036F789 = {
+						DevelopmentTeam = YB93JB3LQ2;
+					};
 					83810835199936110036F789 = {
 						TestTargetID = 8381081A199936110036F789;
 					};
@@ -241,6 +249,7 @@
 			files = (
 				8381082F199936110036F789 /* AppDelegate.m in Sources */,
 				8381082B199936110036F789 /* main.m in Sources */,
+				8381084F199936380036F789 /* TopViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,10 +366,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LoveTwiLive/LoveTwiLive-Prefix.pch";
 				INFOPLIST_FILE = "LoveTwiLive/LoveTwiLive-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -370,10 +382,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LoveTwiLive/LoveTwiLive-Prefix.pch";
 				INFOPLIST_FILE = "LoveTwiLive/LoveTwiLive-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
