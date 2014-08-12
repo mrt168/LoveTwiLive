@@ -6,22 +6,26 @@
 //  Copyright (c) 2014年 mrt. All rights reserved.
 //
 
-
+#define kCONSUMER_KEY @"CxnjlewJuQPvPFSY7ZaKGSuBG"
+#define kCONSUMER_SEC @"UOuqbVIfadvOVZbMUkxXrTnsvef3633NwvICHrNwjD2xK8uRA3"
 #define kOAUTH_TOK    @"*********************"
 #define kOAUTH_SEC    @"*********************"
 
 #import <UIKit/UIKit.h>
 #import "STTwitter.h"
 
-@interface TopViewController : UIViewController{
+@interface TopViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>{
     NSMutableArray *postsArray;
+    NSDictionary *twitterDictionary;
     STTwitterAPI   *twitterAPIClient;
-    
+    UITableView *twitterTable;
 }
 
 -(void)getAccessToken;
 - (void)loginTwitter;
 - (void)getTimeline;
+- (void)makeTableView;
+- (UILabel *)makeCellLabel;
 @property (nonatomic,strong)NSString *accessToken;
 @property (nonatomic,strong)NSString *accessTokenSecret;
 
