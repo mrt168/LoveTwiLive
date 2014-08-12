@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6A44736E-7F07-44C7-A7D9-306ED604B7D3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LoveTwiLive</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0FC9F1B5-8526-4635-B049-156477428882</key>
+		<string>https://github.com/mrt168/LoveTwiLive.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LoveTwiLive.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0FC9F1B5-8526-4635-B049-156477428882</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mrt168/LoveTwiLive.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0FC9F1B5-8526-4635-B049-156477428882</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0FC9F1B5-8526-4635-B049-156477428882</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LoveTwiLive</string>
+		</dict>
+	</array>
+</dict>
+</plist>
