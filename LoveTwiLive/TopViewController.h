@@ -13,15 +13,18 @@
 #import <UIKit/UIKit.h>
 #import "STTwitter.h"
 
-@interface TopViewController : UIViewController{
+@interface TopViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>{
     NSMutableArray *postsArray;
+    NSDictionary *twitterDictionary;
     STTwitterAPI   *twitterAPIClient;
-    
+    UITableView *twitterTable;
 }
 
 -(void)getAccessToken;
 - (void)loginTwitter;
 - (void)getTimeline;
+- (void)makeTableView;
+- (UILabel *)makeCellLabel;
 @property (nonatomic,strong)NSString *accessToken;
 @property (nonatomic,strong)NSString *accessTokenSecret;
 
