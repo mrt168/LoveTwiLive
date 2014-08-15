@@ -6,7 +6,6 @@
 //  Copyright (c) 2014年 mrt. All rights reserved.
 //
 
-
 #define kOAUTH_TOK    @"*********************"
 #define kOAUTH_SEC    @"*********************"
 

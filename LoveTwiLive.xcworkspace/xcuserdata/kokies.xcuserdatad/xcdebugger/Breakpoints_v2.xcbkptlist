@@ -10,12 +10,44 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LoveTwiLive/TopViewController.m"
-            timestampString = "429562029.731039"
+            timestampString = "429825588.543763"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "111"
-            endingLineNumber = "111"
-            landmarkName = "-getTimeline"
+            startingLineNumber = "274"
+            endingLineNumber = "274"
+            landmarkName = "-getUserTimeLine:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/STTwitter/STTwitter/STTwitterAPI.m"
+            timestampString = "429823689.165022"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "221"
+            endingLineNumber = "221"
+            landmarkName = "-verifyCredentialsWithSuccessBlock:errorBlock:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/STTwitter/STTwitter/STTwitterAPI.m"
+            timestampString = "429823689.165022"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "219"
+            endingLineNumber = "219"
+            landmarkName = "-verifyCredentialsWithSuccessBlock:errorBlock:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -26,27 +58,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LoveTwiLive/TopViewController.m"
-            timestampString = "429562029.731039"
+            timestampString = "429825665.230843"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "112"
-            endingLineNumber = "112"
-            landmarkName = "-getTimeline"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "-tableView:heightForRowAtIndexPath:"
             landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LoveTwiLive/TopViewController.m"
-            timestampString = "429566437.460554"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "265"
-            endingLineNumber = "265">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
